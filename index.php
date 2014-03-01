@@ -20,9 +20,9 @@
 
 <body>
 	<header>
-		<hgroup class="container">
+		<hgroup>
 		<nav>
-			<ul>
+			<ul class="container">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About/Contact</a></li>
 				<li><a href="#">Recruiters</a></li>
@@ -30,16 +30,14 @@
 				<li><a href="#">Jobs</a></li>
 			</ul>
 		</nav>
-		<img src="img/gcenergy_logo.png">
+		
 		</hgroup>
 	</header>
-	<section class="slideshow">
-		<ul>
-			<li></li>
-		</ul>
+	<section class="banner">
+		<div class="container"><img src="img/gcenergy_logo.png"></div>
 	</section>
 	<div class="container"> 
-		<main class="grid_9 omega">Main content will go here</main>
+		<main class="grid_9 omega">Main content will go here <br />Possible tabbed sectors with jobs like on http://www.energyrecruitmentcompany.com/<br />Some intro text about GC Energy</main>
 		<section class="sidebar grid_3 omega">
 			<section id="send_cv">
 				<h2>Send us your CV</h2>
@@ -47,30 +45,30 @@
 				<form action="/my-handling-form-page" method="post">
 					<div>
 						<label for="first_name"></label>
-						<input type="text" id="first_name" placeholder="first name" />
+						<input type="text" id="first_name" tabindex="1" placeholder="first name" />
 					</div>
 					<div>
 						<label for="last_name"></label>
-						<input type="text" id="last_name" placeholder="last name" />
+						<input type="text" id="last_name" tabindex="2" placeholder="last name" />
 					</div>
 					<div>
 						<label for="email"></label>
-						<input type="email" id="email" placeholder="email" />
+						<input type="email" id="email" tabindex="3" placeholder="email" />
 					</div>
 					<div>
 						<label for="tel"></label>
-						<input type="tel" id="tel" placeholder="tel" />
+						<input type="tel" id="tel" tabindex="4" placeholder="tel" />
 					</div>
 					<div>
 						<label for="msg"></label>
-						<textarea id="msg" placeholder="OPTIONAL: enter a message for example: I'm interested in job ID00500"></textarea>
+						<textarea id="msg" tabindex="5" placeholder="OPTIONAL: enter a message for example: I'm interested in job ID00500"></textarea>
 					</div>
 					<div>
 						<label for="file"></label>
-						<input  id="file" type="file" value="Upload CV">
+						<input  id="file" type="file" tabindex="6" value="Upload CV">
 					</div>
 					<div>
-						<input id="submit" value="Send" type="submit">
+						<input id="submit" tabindex="7" value="Send" type="submit">
 					</div>		
 				</form>
 			</section>
@@ -97,6 +95,7 @@
 			</section>
 		</section>
 	</div>
+	<div class="clearfix"></div>
 	<footer>
 		<div class="container">
 			<section class="testimonials grid_3">
@@ -126,26 +125,26 @@
 			<form action="/my-handling-form-page" method="post">
 				<div>
 					<label for="first_name"></label>
-					<input type="text" id="first_name" placeholder="first name" />
+					<input type="text" id="first_name" tabindex="1" placeholder="first name" />
 				</div>
 				<div>
 					<label for="last_name"></label>
-					<input type="text" id="last_name" placeholder="last name" />
+					<input type="text" id="last_name" tabindex="2" placeholder="last name" />
 				</div>
 				<div>
 					<label for="email"></label>
-					<input type="email" id="email" placeholder="email" />
+					<input type="email" id="email" tabindex="3" placeholder="email" />
 				</div>
 				<div>
 					<label for="tel"></label>
-					<input type="tel" id="tel" placeholder="tel" />
+					<input type="tel" id="tel" tabindex="4" placeholder="tel" />
 				</div>
 				<div>
 					<label for="msg"></label>
-					<textarea id="msg" placeholder="OPTIONAL: enter a message for example: I'm interested in job ID00500"></textarea>
+					<textarea id="msg" tabindex="5" placeholder="OPTIONAL: enter a message for example: I'm interested in job ID00500"></textarea>
 				</div>
 				<div>
-					<input id="submit" value="Send" type="submit">
+					<input id="submit" tabindex="6" value="Send" type="submit">
 				</div>		
 	    	</form>
 			</section>
