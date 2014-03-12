@@ -38,7 +38,7 @@
 	<section class="banner">
 		SLIDESHOW TO GO HERE
 		<div class="container">
-        	<a href="#" class="main-logo"><img src="img/gcenergy_logo.png"></a>
+        	<a href="#" class="main-logo">GC Energy Partners</a>
         </div>
 	</section>
 	<div class="container"> 
