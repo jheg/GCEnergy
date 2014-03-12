@@ -37,7 +37,9 @@
 	</header>
 	<section class="banner">
 		SLIDESHOW TO GO HERE
-		<div class="container"><img src="img/gcenergy_logo.png"></div>
+		<div class="container">
+        	<a href="#" class="main-logo"><img src="img/gcenergy_logo.png"></a>
+        </div>
 	</section>
 	<div class="container"> 
 		<main class="grid_9 omega">
