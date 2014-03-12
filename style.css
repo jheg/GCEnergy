@@ -79,6 +79,16 @@ footer form div{
 /* ------------------------------------------------
 SECTIONS
 -------------------------------------------------*/
+
+a.main-logo {
+	display: block;
+	width: 250px;
+	height: 250px;
+	background-image: url(img/gcenergy_logo.png);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;	
+}
 hgroup nav{
 	background-color: #14143F;
 	height: 50px;
