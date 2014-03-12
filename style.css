@@ -86,7 +86,8 @@ hgroup nav{
 footer{
 	color: #AAA;
 	background-color: #14143F;
-	height: 400px;
+	min-height: 400px;
+	overflow: auto;
 }
 footer h2{
 	color: #81A8D9;
