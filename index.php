@@ -211,11 +211,9 @@
 	$(document).ready(function(){
 		
 		$('.slider ul').bxSlider({
-		
 			pager		:	true,
 			auto		:	true,
 			controls	:	true,
-			
 		});
 		 
 	});
