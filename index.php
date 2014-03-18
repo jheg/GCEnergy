@@ -28,7 +28,7 @@
 	<header>
 		<hgroup>
 		<nav>
-			<ul class="container">
+			<ul class="container main-nav">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About/Contact</a></li>
 				<li><a href="#">Recruiters</a></li>
