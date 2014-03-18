@@ -78,11 +78,17 @@ input, textarea, input#submit{
 footer form div{
 	padding: 5px;
 }
-
 /* ------------------------------------------------
-SECTIONS
+ HEADER
 -------------------------------------------------*/
-
+hgroup nav {
+	background-color: #14143F;
+	height: 50px;
+}
+hgroup nav li {
+	float:left;
+	margin-left:10px;
+}
 a.main-logo {
 	display: block;
 	width: 250px;
@@ -94,10 +100,14 @@ a.main-logo {
 	position: relative;
 	margin-top: -400px;	
 }
-hgroup nav{
-	background-color: #14143F;
-	height: 50px;
-}
+/* ------------------------------------------------
+SECTIONS
+-------------------------------------------------*/
+
+
+/* ------------------------------------------------
+ FOOTER
+-------------------------------------------------*/
 footer{
 	color: #AAA;
 	background-color: #14143F;
