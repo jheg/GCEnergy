@@ -63,6 +63,9 @@ section.banner {
 	width: 100%;	
 	height: 400px;
 }
+.slider ul li img {
+	height:400px;	
+}
 /* ------------------------------------------------
 FORMS
 -------------------------------------------------*/
@@ -87,7 +90,9 @@ a.main-logo {
 	background-image: url(img/gcenergy_logo.png);
 	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;	
+	overflow: hidden;
+	position: relative;
+	margin-top: -400px;	
 }
 hgroup nav{
 	background-color: #14143F;
