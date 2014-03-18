@@ -17,7 +17,7 @@
   <!-- jQuery. To be replaced by WP call at later date -->
   	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <!-- end jQuery -->
-  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.bxSlider.min.js"></script>
   <script src="js/tabcontent.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -42,8 +42,8 @@
 	<section class="banner">
     	<div class="slider">
             <ul>
-              <li><img src="img/banner-test-1.jpg" /></li>
-              <li><img src="img/banner-test-2.jpg" /></li>
+                  <li><img src="img/banner-test-1.jpg" /></li>
+                  <li><img src="img/banner-test-2.jpg" /></li>
             </ul>
         </div>
 		<div class="container">
