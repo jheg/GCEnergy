@@ -27,14 +27,16 @@
 <body>
 	<header>
 		<hgroup>
-		<nav>
-			<ul class="container main-nav">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About/Contact</a></li>
-				<li><a href="#">Recruiters</a></li>
-				<li><a href="#">Candidates</a></li>
-				<li><a href="#">Jobs</a></li>
-			</ul>
+		<nav class="clearfix">
+        	<div class="container clearfix">
+                <ul class="main-nav clearfix">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About/Contact</a></li>
+                    <li><a href="#">Recruiters</a></li>
+                    <li><a href="#">Candidates</a></li>
+                    <li><a href="#">Jobs</a></li>
+                </ul>
+            </div>
 		</nav>
 		
 		</hgroup>
