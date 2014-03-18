@@ -204,5 +204,10 @@
 			</section>
 		</div>
 	</footer>
+    <script>
+    $(document).ready(function(){
+	  $('.bxslider').bxSlider();
+	});
+	</script>
 </body>
 </html>
