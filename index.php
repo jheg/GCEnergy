@@ -40,7 +40,10 @@
 		</hgroup>
 	</header>
 	<section class="banner">
-		SLIDESHOW TO GO HERE
+		<ul class="bxslider">
+          <li><img src="/images/pic1.jpg" /></li>
+          <li><img src="/images/pic2.jpg" /></li>
+        </ul>
 		<div class="container">
         	<a href="#" class="main-logo">GC Energy Partners</a>
         </div>
