@@ -17,7 +17,7 @@
   <!-- jQuery. To be replaced by WP call at later date -->
   	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <!-- end jQuery -->
-  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
   <script src="js/tabcontent.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -40,10 +40,12 @@
 		</hgroup>
 	</header>
 	<section class="banner">
-		<ul class="bxslider">
-          <li><img src="/images/pic1.jpg" /></li>
-          <li><img src="/images/pic2.jpg" /></li>
-        </ul>
+    	<div class="slider">
+            <ul>
+              <li><img src="img/banner-test-1.jpg" /></li>
+              <li><img src="img/banner-test-2.jpg" /></li>
+            </ul>
+        </div>
 		<div class="container">
         	<a href="#" class="main-logo">GC Energy Partners</a>
         </div>
@@ -204,10 +206,19 @@
 			</section>
 		</div>
 	</footer>
-    <script>
-    $(document).ready(function(){
-	  $('.bxslider').bxSlider();
+        <script type="text/javascript">
+
+	$(document).ready(function(){
+		
+		$('.slider ul').bxSlider({
+		
+			pager		:	true,
+			auto		:	true,
+			controls	:	true,
+			
+		});
+		 
 	});
-	</script>
+</script>
 </body>
 </html>
