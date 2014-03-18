@@ -95,6 +95,10 @@ nav li:last-child{
 }
 
 
+a {
+	text-decoration:none;	
+}
+
 /* ------------------------------------------------
 SLIDESHOW
 -------------------------------------------------*/
@@ -103,6 +107,10 @@ section.banner {
 	background-color: #888;
 	width: 100%;	
 	height: 400px;
+	clear:both;
+}
+.slider ul li img {
+	height:400px;	
 }
 /* ------------------------------------------------
 FORMS
@@ -116,11 +124,24 @@ input, textarea, input#submit{
 footer form div{
 	padding: 5px;
 }
-
 /* ------------------------------------------------
-SECTIONS
+ HEADER
 -------------------------------------------------*/
-
+hgroup nav {
+	background-color: #14143F;
+}
+.main-nav {
+	float:right;
+}
+.main-nav li {
+	float:left;
+}
+.main-nav a:link,
+.main-nav a:visited,
+.main-nav a:active {
+	color:#fff;
+	padding:8px;
+}
 a.main-logo {
 	display: block;
 	width: 250px;
@@ -128,6 +149,7 @@ a.main-logo {
 	background-image: url(img/gcenergy_logo.png);
 	text-indent: 100%;
 	white-space: nowrap;
+<<<<<<< HEAD
 	overflow: hidden;	
 }
 hgroup{
@@ -140,6 +162,20 @@ header{
 
 }
 
+=======
+	overflow: hidden;
+	position: relative;
+	margin-top: -400px;	
+}
+/* ------------------------------------------------
+SECTIONS
+-------------------------------------------------*/
+
+
+/* ------------------------------------------------
+ FOOTER
+-------------------------------------------------*/
+>>>>>>> FETCH_HEAD
 footer{
 	color: #AAA;
 	background-color: #14143F;

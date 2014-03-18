@@ -14,6 +14,10 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/grid.css">
   <link href="css/tabcontent.css" rel="stylesheet" type="text/css" />
+  <!-- jQuery. To be replaced by WP call at later date -->
+  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!-- end jQuery -->
+  <script src="js/jquery.bxSlider.min.js"></script>
   <script src="js/tabcontent.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -22,6 +26,7 @@
 
 <body>
 	<header>
+<<<<<<< HEAD
 		<hgroup class="container">
 		<nav>
 			<ul>
@@ -31,12 +36,30 @@
 				<li><a href="#">Candidates</a></li>
 				<li><a href="#">Jobs</a></li>
 			</ul>
+=======
+		<hgroup>
+		<nav class="clearfix">
+        	<div class="container clearfix">
+                <ul class="main-nav clearfix">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About/Contact</a></li>
+                    <li><a href="#">Recruiters</a></li>
+                    <li><a href="#">Candidates</a></li>
+                    <li><a href="#">Jobs</a></li>
+                </ul>
+            </div>
+>>>>>>> FETCH_HEAD
 		</nav>
 		
 		</hgroup>
 	</header>
 	<section class="banner">
-		SLIDESHOW TO GO HERE
+    	<div class="slider">
+            <ul>
+                  <li><img src="img/banner-test-1.jpg" /></li>
+                  <li><img src="img/banner-test-2.jpg" /></li>
+            </ul>
+        </div>
 		<div class="container">
         	<a href="#" class="main-logo">GC Energy Partners</a>
         </div>
@@ -206,5 +229,17 @@
 			</section>
 		</div>
 	</footer>
+        <script type="text/javascript">
+
+	$(document).ready(function(){
+		
+		$('.slider ul').bxSlider({
+			pager		:	true,
+			auto		:	true,
+			controls	:	true,
+		});
+		 
+	});
+</script>
 </body>
 </html>
