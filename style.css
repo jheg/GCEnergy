@@ -39,6 +39,7 @@ TYPOGRAPHY
 body{
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 100%;
+	background-color: #f7f7f7;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -47,7 +48,7 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{}
 h2{
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 h3{}
 h4{}
@@ -56,6 +57,45 @@ h6{}
 
 a {
 	text-decoration:none;	
+}
+/*-------------------------------------------------
+NAV
+-------------------------------------------------*/
+nav ul.main-nav{
+	float: right;
+	border-left: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-radius: 1px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+nav li{
+	float: left;
+}
+nav li a:link, nav li a:visited{
+	display: block;
+	color: #555;
+	text-decoration: none;
+	padding: 15px;
+	background-color: white;
+}
+nav li#current a:link, nav li#current a:visited{
+	background-color: #81A8D9;
+	color: #fff;
+}
+nav li{
+	border-right: 1px solid #DDD;
+}
+nav li:last-child{
+	border-right: none;
 }
 
 /* ------------------------------------------------
@@ -86,10 +126,19 @@ footer form div{
 /* ------------------------------------------------
  HEADER
 -------------------------------------------------*/
-hgroup nav {
+/*hgroup nav {
 	background-color: #14143F;
+}*/
+hgroup nav div{
+	position: relative;
+	height: 80px;
 }
-.main-nav {
+header{
+	width: 100%;
+	background-color: #f7f7f7;
+
+}
+/*.main-nav {
 	float:right;
 }
 .main-nav li {
@@ -100,7 +149,7 @@ hgroup nav {
 .main-nav a:active {
 	color:#fff;
 	padding:8px;
-}
+}*/
 a.main-logo {
 	display: block;
 	width: 250px;
