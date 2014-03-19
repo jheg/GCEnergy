@@ -11,7 +11,7 @@
   <meta name="author" content="Digimoose">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylejlh.css">
   <link rel="stylesheet" href="css/grid.css">
   <link href="css/tabcontent.css" rel="stylesheet" type="text/css" />
   <script src="js/tabcontent.js" type="text/javascript"></script>
@@ -22,14 +22,10 @@
 
 <body>
 	<header>
-		<hgroup>
+		<hgroup class="container">
 		<nav>
-<<<<<<< HEAD
-			<ul class="container">
-=======
-			<ul class="container main-nav">
->>>>>>> parent of c7bc9c0... Various
-				<li><a href="#">Home</a></li>
+			<ul>
+				<li id="current"><a href="#">Home</a></li>
 				<li><a href="#">About/Contact</a></li>
 				<li><a href="#">Recruiters</a></li>
 				<li><a href="#">Candidates</a></li>
@@ -46,7 +42,7 @@
         </div>
 	</section>
 	<div class="container"> 
-		<main class="grid_9 omega">
+		<main class="grid_8 omega">
 			Main content will go here <br />Possible tabbed sectors with jobs like on http://www.energyrecruitmentcompany.com/<br />Some intro text about GC Energy
 			<section class="intro">
 				<h1>Headline/strapline to go here</h1>
@@ -62,19 +58,19 @@
 				<div class="tabcontents">
 				    <div id="view1">
 				        <div class="job_excerpt">
+				        	<div class="grid_3 job_pic omega"><img src="" height="100" width="100"></div>
 				        	<div class="grid_6 desc_excerpt"><h2>MWD/LWD Engineer</h2><p>Our client is a leading oilfield service company operating worldwide. They strive by attracting and retaining top talent ...</p></div>
-				        	<div class="grid_3 location">Saxmundham</div>
-				        	<div class="grid_3 omega sector"><span class="clearfix">Drilling &amp; Well Services</span><a href="#">Read More</a></div>
+				        	<div class="grid_3 omega sector"><a href="#" class="button">View Listing</a></div>
 				        </div>
 				        <div class="job_excerpt">
+				        	<div class="grid_3 job_pic omega"><img src="" height="100" width="100"></div>				        	
 				        	<div class="grid_6 desc_excerpt"><h2>MWD/LWD Engineer</h2><p>Our client is a leading oilfield service company operating worldwide. They strive by attracting and retaining top talent ...</p></div>
-				        	<div class="grid_3 location">Ipswich</div>
-				        	<div class="grid_3 omega sector"><span class="clearfix">Drilling &amp; Well Services</span><a href="#">Read More</a></div>
+				        	<div class="grid_3 omega sector"><a href="#" class="button">View Listing</a></div>
 				        </div>
 				        <div class="job_excerpt">
+				        	<div class="grid_3 job_pic omega"><img src="" height="100" width="100"></div>
 				        	<div class="grid_6 desc_excerpt"><h2>MWD/LWD Engineer</h2><p>Our client is a leading oilfield service company operating worldwide. They strive by attracting and retaining top talent ...</p></div>
-				        	<div class="grid_3 location">Glasgow</div>
-				        	<div class="grid_3 omega sector"><span class="clearfix">Drilling &amp; Well Services</span><a href="#">Read More</a></div>
+				        	<div class="grid_3 omega sector"><a href="#" class="button">View Listing</a></div>
 				        </div>
 				    </div>
 				    <div id="view2">
@@ -89,7 +85,16 @@
 				</div>
 			</section>
 		</main>
-		<section class="sidebar grid_3 omega">
+		<section class="sidebar grid_4 omega">
+			<section>
+				<h2>BROWSE JOBS BY INDUSTRY</h2>
+				<ul>
+					<li><a href="#">OIL &amp; GAS</a></li>
+					<li><a href="#">RENEWABLE ENERGY</a></li>
+					<li><a href="#">MINING</a></li>
+					<li><a href="#">FINANCE</a></li>
+				</ul>
+			</section>
 			<section id="send_cv">
 				<h2>Send us your CV</h2>
 				<p>Some text that appeals to potential candidates and encourages them to send you their cv.</p>
@@ -123,7 +128,7 @@
 					</div>		
 				</form>
 			</section>
-			<section id="latest_jobs">
+			<!--<section id="latest_jobs">
 				<h2>Latest Jobs</h2>
 				<div class="sb_job">
 					<a href="#">
@@ -143,7 +148,7 @@
 					<p>Description about the job will go here and be limited to a certain amount of char ...</p>
 					</a>
 				</div>
-			</section>
+			</section>-->
 		</section>
 	</div>
 	<div class="clearfix"></div>
@@ -162,7 +167,7 @@
 				<P>GC Energy Ltd<br />Street Address<br />City<br />Post Code</P>
 			</section>
 			<section class="sectors grid_3">
-				<h2>BROWSE JOBS BY SECTOR</h2>
+				<h2>BROWSE JOBS BY INDUSTRY</h2>
 				<ul>
 					<li><a href="#">OIL &amp; GAS</a></li>
 					<li><a href="#">RENEWABLE ENERGY</a></li>
