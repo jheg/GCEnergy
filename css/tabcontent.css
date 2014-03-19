@@ -64,50 +64,26 @@ ul.tabs li.selected a:hover
 
 div.tabcontents
 {
-    background-color: white;
-    border-left: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;
-    border-right: 1px solid #DDD;
-    border-top: 1px solid #81A8D9;
-    padding: 30px 20px;
+    border-top: 5px solid #81A8D9; padding: 30px 10px;
 }
 /* CUSTOM STYLES ADDED BY DIGIMOOSE */
 section.tabbed_jobs{
     padding: 10px;
 }
-.job_pic{
-}
 .job_excerpt{
     width: 100%;
     overflow: auto;
     margin-top: 15px;
-    border-bottom: 1px solid #DDD;
-}
-.job_excerpt a.button{
-    background-color: #81A8D9;
-    text-decoration: none;
-    padding: 7px 12px;
-    border-radius: 2px;
-    color: #fff;
-    font-size: 0.9em;
-    float: right;
+    background-color: #DDD;
 }
 .desc_excerpt{
-}
-.desc_excerpt h2{
-    color: #81A8D9;
-}
-.desc_excerpt p{
-    margin-top: 10px;
-    font-size: 0.9em;
-    color: #555;
+    background-color: red;
 }
 .location{
     background-color: blue;
 }
 .sector{
-    float: right;
-    margin-top: 75px;
+    background-color: yellow;
 }
 .desc_excerpt h2, .desc_excerpt p{
     padding: 0 0 0 10px;
