@@ -231,6 +231,21 @@ section.tabbed_jobs{
     color: #fff;
     font-size: 0.9em;
     float: right;
+	background-image:url(img/button-bg.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+.job_excerpt.hotjob a.button{
+    background-color: #e94103;
+    text-decoration: none;
+    padding: 7px 12px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 0.9em;
+    float: right;
+	background-image:url(img/hotjob-button-bg.png);
+	background-repeat:no-repeat;
+	background-position:right top;
 }
 .desc_excerpt{
 }

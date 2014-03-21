@@ -68,7 +68,7 @@
 				</ul>
 				<div class="tabcontents">
 				    <div id="view1">
-				        <div class="job_excerpt">
+				        <div class="job_excerpt hotjob">
 				        	<div class="grid_3 job_pic omega"><img src="" height="100" width="100"></div>
 				        	<div class="grid_6 desc_excerpt"><h2>MWD/LWD Engineer</h2><p>Our client is a leading oilfield service company operating worldwide. They strive by attracting and retaining top talent ...</p></div>
 				        	<div class="grid_3 omega sector"><a href="#" class="button">View Listing</a></div>
