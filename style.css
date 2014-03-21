@@ -157,7 +157,7 @@ ul.tabs
 ul.tabs li
 {
     display: inline;
-    margin-right: 5px;/*no distance between tabs*/
+    margin-right: 10px;/*no distance between tabs*/
     background: White;
 }
         
@@ -167,38 +167,33 @@ ul.tabs li a
     text-decoration: none;
     position: relative;
     padding: 7px 22px;
-    color: #81A8D9;
+    color: #4e4e4e;
     outline:none;
-    background: #FFF;
-    /*border:1px solid #14143F;
-    border-right:0; */
+    background: #fff;
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 18px;
-    border-left: 1px solid #81A8D9;
-    border-top: 1px solid #81A8D9;
-    border-right: 1px solid #81A8D9;
-}
-
-/*Note: IE8 and earlier doesn't support li:last-child. You have to add another class to the last tab (LI) and specify its border-right as below.*/
-ul.tabs li:last-child a
-{
-    /*border-right:1px solid #14143F;*/
-}
-  
-        
+    font-size: 24px;
+    border-left: 1px solid #bebebe;
+    border-top: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+}        
 ul.tabs li a:hover
 {
-    color: #14143F;
-    background: white;
+    color:#fff;
+    background:#bbd0e9;
+	border-left: 1px solid #bbd0e9;
+    border-top: 1px solid #bbd0e9;
+    border-right: 1px solid #bbd0e9;
 }
         
 ul.tabs li.selected a, ul.tabs li.selected a:hover
 {
     top: 0px;
     font-weight:normal;
-    background: #81A8D9;
-    color: #FFF;
-    border: none;
+    background: #81a8d9;
+    color: #fff;    
+    border-left: 1px solid #bebebe;
+    border-top: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
 }
         
         
