@@ -214,10 +214,10 @@ ul.tabs li.selected a:hover
 
 div.tabcontents
 {
-    background-color: white;
-    border-left: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;
-    border-right: 1px solid #DDD;
+    background-color: #fff;
+    border-left: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
     border-top: 1px solid #81A8D9;
     padding: 30px 20px;
 }
@@ -309,7 +309,7 @@ SECTIONS
 -------------------------------------------------*/
 footer{
 	color: #AAA;
-	background-color: #81a8d9;
+	background-color: #6f97c8;
 	min-height: 400px;
 	overflow: auto;
 }
