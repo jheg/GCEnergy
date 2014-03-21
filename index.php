@@ -82,6 +82,9 @@
 				        	<div class="grid_6 desc_excerpt"><h2>MWD/LWD Engineer</h2><p>Our client is a leading oilfield service company operating worldwide. They strive by attracting and retaining top talent ...</p></div>
 				        	<div class="grid_3 omega sector"><a href="#" class="button">View Listing</a></div>
 				        </div>
+                        <div class="view-more">
+                        	<a href="#">View more in Gas &amp; Oil &raquo;</a>
+                        </div>
 				    </div>				    
 				    <div id="view2">
 				        content 2
