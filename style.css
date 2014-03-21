@@ -226,26 +226,32 @@ section.tabbed_jobs{
 .job_excerpt a.button{
     background-color: #81A8D9;
     text-decoration: none;
-    padding: 7px 12px;
-    border-radius: 2px;
+    padding: 12px 40px 12px 12px;
+    border-radius: 4px;
     color: #fff;
     font-size: 0.9em;
     float: right;
 	background-image:url(img/button-bg.png);
 	background-repeat:no-repeat;
-	background-position:right top;
+	background-position:100px center;
+}
+.job_excerpt a.button:hover {
+	background-color:#6f97c8;	
 }
 .job_excerpt.hotjob a.button{
     background-color: #e94103;
     text-decoration: none;
-    padding: 7px 12px;
-    border-radius: 2px;
+    padding: 12px 40px 12px 12px;
+    border-radius: 4px;
     color: #fff;
     font-size: 0.9em;
     float: right;
 	background-image:url(img/hotjob-button-bg.png);
 	background-repeat:no-repeat;
-	background-position:right top;
+	background-position:100px center;
+}
+.job_excerpt.hotjob a.button:hover {
+	background-color:#d63b02;	
 }
 .desc_excerpt{
 }
