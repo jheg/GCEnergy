@@ -58,6 +58,30 @@ h6{}
 a {
 	text-decoration:none;	
 }
+/* ------------------------------------------------
+ HEADER
+-------------------------------------------------*/
+
+hgroup nav div{
+	position: relative;
+	height: 80px;
+}
+header{
+	width: 100%;
+	background-color: #f7f7f7;
+
+}
+a.main-logo {
+	display: block;
+	width: 93px;
+	height: 93px;
+	background-image: url(img/main-logo.png);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	margin-top: -400px;	
+}
 /*-------------------------------------------------
 NAV
 -------------------------------------------------*/
@@ -123,44 +147,7 @@ input, textarea, input#submit{
 footer form div{
 	padding: 5px;
 }
-/* ------------------------------------------------
- HEADER
--------------------------------------------------*/
-/*hgroup nav {
-	background-color: #14143F;
-}*/
-hgroup nav div{
-	position: relative;
-	height: 80px;
-}
-header{
-	width: 100%;
-	background-color: #f7f7f7;
 
-}
-/*.main-nav {
-	float:right;
-}
-.main-nav li {
-	float:left;
-}
-.main-nav a:link,
-.main-nav a:visited,
-.main-nav a:active {
-	color:#fff;
-	padding:8px;
-}*/
-a.main-logo {
-	display: block;
-	width: 250px;
-	height: 250px;
-	background-image: url(img/gcenergy_logo.png);
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	position: relative;
-	margin-top: -400px;	
-}
 /* ------------------------------------------------
 SECTIONS
 -------------------------------------------------*/
