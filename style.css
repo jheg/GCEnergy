@@ -37,7 +37,7 @@ transition: color .25s ease,background-color .25s ease,border-color .25s ease,op
 TYPOGRAPHY
 -------------------------------------------------*/
 body{
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 	background-color: #fbf9f3;
 }
@@ -222,6 +222,9 @@ section.tabbed_jobs{
     overflow: auto;
     margin-top: 15px;
     border-bottom: 1px solid #DDD;
+}
+.job_excerpt h2 {
+	font-family: 'Open Sans', sans-serif;	
 }
 .job_excerpt a.button{
     background-color: #81A8D9;

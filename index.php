@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>	
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
 
   <title>GC Energy Ltd | The #1 Energy Recruiters</title>
