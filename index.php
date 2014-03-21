@@ -99,16 +99,8 @@
 			</section>
 		</main>
 		<section class="sidebar grid_4 omega">
-			<section>
-				<h2>BROWSE JOBS BY INDUSTRY</h2>
-				<ul>
-					<li><a href="#">OIL &amp; GAS</a></li>
-					<li><a href="#">RENEWABLE ENERGY</a></li>
-					<li><a href="#">MINING</a></li>
-					<li><a href="#">FINANCE</a></li>
-				</ul>
-			</section>			
-			<section id="send_cv">
+						
+			<section id="send_cv" class="frame">
 				<h2>Send us your CV</h2>
 				<p>Some text that appeals to potential candidates and encourages them to send you their cv.</p>
 				<form action="/my-handling-form-page" method="post">
@@ -140,6 +132,15 @@
 						<input id="submit" tabindex="7" value="Send" type="submit">
 					</div>		
 				</form>
+			</section>
+			<section class="frame">
+				<h2>BROWSE JOBS BY INDUSTRY</h2>
+				<ul class="cats">
+					<li><a href="#">OIL &amp; GAS</a></li>
+					<li><a href="#">RENEWABLE ENERGY</a></li>
+					<li><a href="#">MINING</a></li>
+					<li><a href="#">FINANCE</a></li>
+				</ul>
 			</section>
 		</section>
 	</div>

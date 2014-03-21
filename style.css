@@ -143,7 +143,7 @@ section.banner {
 }
 /* Home */
 
-.intro {
+.intro, .frame {
 	background:#fff;
 	border: 1px solid #bebebe;
     padding: 30px 20px;
@@ -289,8 +289,11 @@ section.tabbed_jobs{
 /* ------------------------------------------------
 FORMS
 -------------------------------------------------*/
-input, textarea, input#submit{
-	width: 96%;
+#send_cv form{
+	margin-top: 20px;
+}
+input, textarea{
+	width: 90%;
 	padding: 5px;
 	border-radius: 0px;
 	border: 0px;
@@ -298,11 +301,47 @@ input, textarea, input#submit{
 footer form div{
 	padding: 5px;
 }
-
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+	background-color: #f7f7f7;
+	padding: 10px;
+}
+textarea{
+	height: 100px;
+	margin-top: 10px;
+}
+input[type="file"]{
+	padding: 0;
+	margin-top: 10px;
+}
+input[type="submit"]{
+	width: 100px;
+	background-color: #81A8D9;
+	color: #fff;
+	border-radius: 4px;
+	padding: 12px 12px 12px 12px;
+	font-size: 0.9em;
+	margin-top: 10px;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	background-color: #6f97c8;
+}
 /* ------------------------------------------------
 Sidebar
 -------------------------------------------------*/
-
+ul.cats li{
+	clear: both;
+}
+ul.cats li a{
+	background-color: #81A8D9;
+	padding: 2px 4px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 2px;
+}
 
 /* ------------------------------------------------
  FOOTER
