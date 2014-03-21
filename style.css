@@ -39,7 +39,7 @@ TYPOGRAPHY
 body{
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 100%;
-	background-color: #f7f7f7;
+	background-color: #fbf9f3;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -68,7 +68,7 @@ hgroup nav div{
 }
 header{
 	width: 100%;
-	background-color: #f7f7f7;
+	background-color: #fbf9f3;
 
 }
 a.main-logo {
